@@ -1,0 +1,16 @@
+_condition,temp,wind,pk
+Cloudy,42,"10 mph, L To R",565514
+Partly Cloudy,83,"7 mph, Out To LF",567014
+Cloudy,51,"10 mph, Out To RF",565522
+Cloudy,63,"5 mph, L To R",565576
+Roof Closed,73,"0 mph, None",565628
+Partly Cloudy,84,"7 mph, R To L",567516
+Partly Cloudy,80,"9 mph, Out To LF",565618
+Sunny,88,"15 mph, L To R",567505
+Clear,70,"13 mph, L To R",566277
+Partly Cloudy,77,"9 mph, Out To CF",566256
+Cloudy,79,"8 mph, R To L",567139
+Overcast,45,"14 mph, Out To CF",566976
+Partly Cloudy,69,"7 mph, Out To LF",565443
+Partly Cloudy,96,"3 mph, In From CF",566842
+Partly Cloudy,87,"9 mph, Out To RF",567106
