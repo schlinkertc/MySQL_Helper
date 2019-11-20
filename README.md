@@ -18,13 +18,30 @@ The user can also use the .cnx() or .cursor() methods.
 The .create_table() method allows the user to create a table with a SQL query with some built-in exception handling. 
 
 ## Pandas integration
-The .query_to_df() method belonging to the DataBase Class will automatically create a Pandas DataFrame from a SQL query. 
-The .table_fromDF() method takes in a DataFrame as an argument, and it will create a table in your database from that DataFrame without any additional SQL code. 
-This requires a dictionary (included in the source code file) that matches SQL datatypes to numpy datatypes (used by Pandas).
-For now, only integers, varchar strings, and datetime datatypes are supported. 
-You can also specify the primary key column with an optional argument.
-The .insert_fromDf will insert data from a DataFrame into a specified database table. 
-.insert_fromDf_iteration will do the same, but it iterates through each indivdual record and prints it so you can track your progress. 
+##### .query_to_df() method 
+- Belongs to the DataBase Class
+- Automatically create a Pandas DataFrame from a SQL query
+
+##### .table_fromDF() method 
+- Takes in a DataFrame as an argument
+- Create a table in your database from that DataFrame without any additional SQL code
+- Requires a dictionary (included in the source code file) that matches SQL datatypes to numpy datatypes (used by Pandas)
+  - For now, only integers, varchar strings, and datetime datatypes are supported. 
+- You can also specify the primary key column with an optional argument.
+
+##### .insert_fromDf method 
+- inserts data from a DataFrame into a specified database table
+- .insert_fromDf_iteration will do the same, but it iterates through each indivdual record and prints it so you can track your progress. 
+
+## Next Steps
+
+- Greater exception handling 
+- More numpy datatypes 
+- Take in different dataypes besides DataFrames (dicts, nested dicts, lists, etc)
+- Combine methods by using optional keyword arguments 
+- A new class for DataFrames that includes .commit() method to apply changes to your database
+- SQLite functionality 
+- Additional database schema tools e.g. foreign keys, edit table methods, schema visualization 
 
 
 
